@@ -19,13 +19,13 @@ Clone this repository:
 Ensure that conda is working on your system. <!-- If you are working on sherlock on the horence partition, you can try adding `export PATH="/share/PI/horence/applications/anaconda3/bin/:$PATH"` to your .bashrc. -->
 Then set up the conda environment from the environment.yml file:
 
-`$ conda env create --name spliz_env --file=environment.yml`
+`$ conda env create --name SpliZ_pipeline --file=environment.yml`
 
 and activate it:
 
-`$ source activate spliz_env`
+`$ source activate SpliZ_pipeline`
 
-If this activation step doesn't work, try running `conda env list` and looking for the path that ends with `spliz_env`. Then run `source activate <full path>`. <!-- for example `source activate /share/PI/horence/applications/anaconda3/envs/spliz_env`. -->
+If this activation step doesn't work, try running `conda env list` and looking for the path that ends with `SpliZ_pipeline`. Then run `source activate <full path>`. <!-- for example `source activate /share/PI/horence/applications/anaconda3/envs/SpliZ_pipeline`. -->
 
 This whole process should take less than 5 minutes on a normal computer.
 
