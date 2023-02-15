@@ -37,7 +37,7 @@ Use the following command to run the pipeline on the small test dataset (labeled
 
 This should take less than 5 minutes to run on a local computer with at least 3 Gb free space.
 
-After the pipeline has completed, you can check your results by comparing the file `scripts/output/final_summary/summary_test_compartment-tissue_100_S_0.1_z_0.0_b_5.tsv` with the sample output file `test_pvals_compartment-tissue_100_S_0.1_z_0.0_b_5.tsv` in the main directory.
+After the pipeline has completed, you can check your results by comparing the file `scripts/output/final_summary/summary_test_compartment-tissue_100_S_0.1_z_0.0_b_5.tsv` with the sample output file `summary_test_compartment-tissue_100_S_0.1_z_0.0_b_5.tsv` (BLmod) in the main directory.
 
 ## Downloading data from paper
 
